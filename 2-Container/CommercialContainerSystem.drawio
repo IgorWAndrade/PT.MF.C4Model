@@ -1,0 +1,219 @@
+<mxfile host="65bd71144e">
+    <diagram id="_c2juF_RwAG0OSuIpjdX" name="Commercial">
+        <mxGraphModel dx="4908" dy="2554" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="413" pageHeight="291" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <object placeholders="1" c4Name="AccountSystem" c4Type="AccountScope" c4Application="Account System Scope" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="2">
+                    <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#cce5ff;strokeColor=#36393d;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];fontColor=#004C99;" parent="1" vertex="1">
+                        <mxGeometry x="1431" y="119.5" width="1043" height="291" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Wallet System" c4Type="WalletScope" c4Application="Wallet System Scope" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="3">
+                    <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#cce5ff;strokeColor=#36393d;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];fontColor=#004C99;" parent="1" vertex="1">
+                        <mxGeometry x="-1225.8" y="777.5" width="813" height="291" as="geometry"/>
+                    </mxCell>
+                </object>
+                <mxCell id="52" value="Solicitar Pagamento" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" parent="1" source="4" target="5" edge="1">
+                    <mxGeometry x="0.8648" y="15" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <object placeholders="1" c4Type="API" c4Container="PT.MY.Gateway.Ocelot.API" c4Technology="Net 6" c4Description="Description of microservice type container role/responsibility." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="4">
+                    <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="149" y="198" width="200" height="170" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Type="API" c4Container="PT.MY.Wallet.API" c4Technology="Net 6" c4Description="Description of microservice type container role/responsibility." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="5">
+                    <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="-1147" y="833" width="200" height="170" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Type="API" c4Container="PT.MY.Account.API" c4Technology="Net 6" c4Description="Description of microservice type container role/responsibility." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="6">
+                    <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="1876" y="183" width="200" height="170" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Type="API" c4Container="PT.MY.Payment.API" c4Technology="Net 6" c4Description="Description of microservice type container role/responsibility." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="8">
+                    <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="-715" y="833" width="200" height="170" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Type="API" c4Container="PT.MY.Signature.API" c4Technology="Net 6" c4Description="Description of microservice type container role/responsibility." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="9">
+                    <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="2259" y="180" width="200" height="170" as="geometry"/>
+                    </mxCell>
+                </object>
+                <mxCell id="10" style="html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=#E6E6E6;fontColor=#004C99;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="11" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="312" y="517" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <object placeholders="1" c4Type="API" c4Container="PT.MY.Notification.API" c4Technology="Net 6, WebSocket" c4Description="Description of microservice type container role/responsibility." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="11">
+                    <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="149" y="833" width="200" height="170" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Type="API" c4Container="PT.MY.Order.API" c4Technology="Net 6" c4Description="Description of microservice type container role/responsibility." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="12">
+                    <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="-283" y="829" width="200" height="170" as="geometry"/>
+                    </mxCell>
+                </object>
+                <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#E6E6E6;fontColor=#000000;strokeColor=#828282;" parent="1" source="16" target="35" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#E6E6E6;fontColor=#000000;strokeColor=#828282;" parent="1" source="16" target="42" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#E6E6E6;fontColor=#000000;strokeColor=#828282;" parent="1" source="16" target="44" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;curved=1;" parent="1" source="16" target="47" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <object placeholders="1" c4Type="AMQP" c4Container="PT.MY.MB" c4Technology="RabbitMQ" c4Description="Description of message bus type container role/responsibility." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="16">
+                    <mxCell style="shape=cylinder3;size=15;direction=south;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="129" y="2072" width="240" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Commercial" c4Type="Person" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" Description="" id="17">
+                    <mxCell style="html=1;fontSize=11;dashed=0;whitespace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="149" y="-812" width="200" height="180" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Commercial" c4Type="Role" c4Technology="Net 6" c4Description="Description of component role/responsibility." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="18">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+                        <mxGeometry x="1454" y="208" width="240" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Type="SPA" c4Container="PT.MY.SPA" c4Technology="ReactJs, JavaScript, Typescript" c4Description="Description of web browser container role/responsibility." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="19">
+                    <mxCell style="shape=mxgraph.c4.webBrowserContainer;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#118ACD;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="129" y="-432" width="240" height="160" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Redirect API Calls" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="20">
+                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#E6E6E6;" parent="1" source="19" target="4" edge="1">
+                        <mxGeometry x="-0.0067" width="240" relative="1" as="geometry">
+                            <mxPoint x="770" y="-78" as="sourcePoint"/>
+                            <mxPoint x="1010" y="-78" as="targetPoint"/>
+                            <mxPoint y="1" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Type="Relationship" c4Description="" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" id="21">
+                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#000000;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#FFFFFF;" parent="1" source="17" target="19" edge="1">
+                        <mxGeometry width="240" relative="1" as="geometry">
+                            <mxPoint x="770" y="-78" as="sourcePoint"/>
+                            <mxPoint x="1010" y="-78" as="targetPoint"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="*Criar um Cadastrado como Comerciante&#10;- Endereço da Loja&#10;*Logar como Comerciante&#10;*Deslogar como Comerciante" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="22">
+                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;labelBackgroundColor=#E6E6E6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="18" target="6" edge="1">
+                        <mxGeometry x="0.0005" width="240" relative="1" as="geometry">
+                            <mxPoint x="730" y="253" as="sourcePoint"/>
+                            <mxPoint x="703" y="159" as="targetPoint"/>
+                            <mxPoint as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Identity Commercial" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="23">
+                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;labelBackgroundColor=#E6E6E6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4" target="18" edge="1">
+                        <mxGeometry x="-0.0315" width="240" relative="1" as="geometry">
+                            <mxPoint x="1013" y="275.00000000000006" as="sourcePoint"/>
+                            <mxPoint x="739" y="265" as="targetPoint"/>
+                            <mxPoint as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="*Ativar Assinatura&#10;*Desativar Assinatura" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="24">
+                    <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;labelBackgroundColor=#E6E6E6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6" target="9" edge="1">
+                        <mxGeometry x="0.0168" width="240" relative="1" as="geometry">
+                            <mxPoint x="1166" y="347" as="sourcePoint"/>
+                            <mxPoint x="1406" y="347" as="targetPoint"/>
+                            <mxPoint as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <mxCell id="27" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=#E6E6E6;fontColor=#004C99;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#828282;" parent="1" source="4" target="31" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="539" y="420.50000000000006" as="sourcePoint"/>
+                        <mxPoint x="1196" y="821" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="CRUD Categorias&lt;br&gt;CRUD Produtos&lt;br&gt;CRUD Produtos por Tag" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#004C99;labelBackgroundColor=#E6E6E6;" parent="27" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0732" relative="1" as="geometry">
+                        <mxPoint x="235" y="126" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <object placeholders="1" c4Type="API" c4Container="PT.MY.Catalog.API" c4Technology="Net 6" c4Description="Description of microservice type container role/responsibility." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="31">
+                    <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="580" y="838" width="200" height="170" as="geometry"/>
+                    </mxCell>
+                </object>
+                <mxCell id="34" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#E6E6E6;fontColor=#000000;strokeColor=#828282;" parent="1" source="35" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <object placeholders="1" c4Name="PT.MT.MB.Order" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" Publisher="OrderProductionStarted;&#10;OrderProductionFinish;&#10;OrderAwaitDriven;&#10;OrderInRoute;&#10;OrderDelivery;" Subscriber="OrderUpdateStatusEvent (Success);&#10;" Status="OrderCreated (Cliente faz Pedido) - (Lojista e Notificado);&#10;OrderAccepted (Lojista aceita o Pedido) -  (Cliente e Notificado);&#10;OrderInProcess (Lojista começa a produzir o Pedido) -  (Cliente e Notificado); &#10;OrderReady (Pedido produzido com sucesso) - (Cliente e Notificado);&#10;OrderWaitingDelivery (Pedido esta aguardando o Motorista) - (Cliente e Motorista são Notificados);&#10;OrderAcceptedDriver (Motorista aceita o Pedido) - (Cliente e Lojista são Notificados);&#10;OrderCollectedDriver (Motorista pega o pedido) - (Cliente e Lojista são notificados);&#10;OrderInMotion (O motorista envia notificações de trajetoria) - (Cliente é Lojista são notificados da Trajetoria);&#10;OrderDelivered (O motorista entrega para cliente é mesmo aceita no App) (Cliente, Motorista e Lojista são  notificados)&#10;" id="35">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+                        <mxGeometry x="-303" y="1563" width="240" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <mxCell id="36" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#E6E6E6;fontColor=#000000;strokeColor=#828282;" parent="1" source="38" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#E6E6E6;fontColor=#000000;strokeColor=#828282;" parent="1" source="38" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <object placeholders="1" c4Name="PT.MT.MB.Notification" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" Subscriber="OrderCreatedEvent;&#10;OrderAwaitDriven;&#10;OrderInRoute;&#10;OrderDelivery;&#10;PaymentCommercialProcessEvent;&#10;PaymentCommercialSucessEvent;&#10;PaymentCommercialFailedEvent;" id="38">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+                        <mxGeometry x="129" y="1563" width="240" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <mxCell id="39" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#E6E6E6;fontColor=#000000;strokeColor=#828282;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="40" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <object placeholders="1" c4Name="PT.MT.MB.Catalog" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" Publisher="ProdutCreatedEvent" id="40">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+                        <mxGeometry x="560" y="1561" width="240" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <mxCell id="41" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#E6E6E6;fontColor=#000000;strokeColor=#828282;" parent="1" source="42" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <object placeholders="1" c4Name="PT.MT.MB.Payment" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" Publisher="PaymentCommercialProcessEvent;&#10;PaymentCommercialSucessEvent;&#10;PaymentCommercialFailedEvent;" Subscriber="OrderCreatedEvent;&#10;PaymentTransferCommercial;" id="42">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+                        <mxGeometry x="-735" y="1563" width="240" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <mxCell id="43" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#E6E6E6;fontColor=#000000;strokeColor=#828282;" parent="1" source="44" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <object placeholders="1" c4Name="PT.MT.MB.Wallet" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" Subscriber="PaymentSucessEvent;&#10;PaymentCommercialProcessEvent;&#10;PaymentCommercialSucessEvent;&#10;PaymentCommercialFailedEvent;" Publisher="PaymentTransferCommercial" id="44">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+                        <mxGeometry x="-1167" y="1561" width="240" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <mxCell id="45" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#E6E6E6;fontColor=#000000;strokeColor=#828282;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="40" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="680" y="1005" as="sourcePoint"/>
+                        <mxPoint x="259" y="1018" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <object placeholders="1" c4Type="API" c4Container="PT.MY.Review.API" c4Technology="Net 6" c4Description="Description of microservice type container role/responsibility." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;b&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;/b&gt;" id="46">
+                    <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fontSize=12;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;fillColor=#23A2D9;" parent="1" vertex="1">
+                        <mxGeometry x="1011" y="829" width="200" height="170" as="geometry"/>
+                    </mxCell>
+                </object>
+                <mxCell id="49" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;" parent="1" source="47" target="46" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <object placeholders="1" c4Name="PT.MT.MB.Review" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" Subscriber="ProdutCreatedEvent" id="47">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+                        <mxGeometry x="991" y="1553" width="240" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
